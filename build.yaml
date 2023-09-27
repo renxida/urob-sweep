@@ -18,7 +18,7 @@ include:
   # - board: corneish_zen_v2_right
   # - board: adv360pro_left
   # - board: adv360pro_right
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: cradio_left
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: cradio_right

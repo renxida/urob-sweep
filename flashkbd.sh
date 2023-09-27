@@ -27,8 +27,8 @@ fi
 echo $GIT_REMOTE_URL
 
 # Step 1: Download and unzip firmware files to the unique timestamped folder
-LEFT_FIRMWARE_URL="${GIT_REMOTE_URL}/releases/download/latest/${BOARD}_left-${SHIELD}-zmk.uf2"
-RIGHT_FIRMWARE_URL="${GIT_REMOTE_URL}/releases/download/latest/${BOARD}_right-${SHIELD}-zmk.uf2"
+LEFT_FIRMWARE_URL="${GIT_REMOTE_URL}/releases/download/latest/${SHIELD}_left-${BOARD}-zmk.uf2"
+RIGHT_FIRMWARE_URL="${GIT_REMOTE_URL}/releases/download/latest/${SHIELD}_right-${BOARD}-zmk.uf2"
 
 wget -P $TEMP_DIR "$LEFT_FIRMWARE_URL"
 wget -P $TEMP_DIR "$RIGHT_FIRMWARE_URL"
