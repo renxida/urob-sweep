@@ -26,10 +26,11 @@ jobs:
 
     - name: Convert SVGs to PNGs
       run: |
-        sudo apt-get install imagemagick
+        sudo apt-get install -y inkscape
         for svg in keymap-drawer/*.svg; do
-          convert "$svg" "${svg%.svg}.png"
+          inkscape "$svg" --export-type=png --export-filename="${svg%.svg}.png"
         done
+    
 
     - name: Commit PNGs
       run: |
