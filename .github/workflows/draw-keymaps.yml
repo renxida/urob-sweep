@@ -6,27 +6,27 @@ on:
       - "config/*.keymap"
       - "config/*.dtsi"
       - "keymap_drawer.config.yaml"
-      # - 'config/boards/*/*/*.keymap'
 
 jobs:
   draw:
-    runs-on: ubuntu-latest
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    with:
+      keymap_patterns: "config/*.keymap"
+      config_path: "keymap_drawer.config.yaml"
+      output_folder: "keymap-drawer"
+      parse_args: ""
+      draw_args: ""
 
+  convert_and_commit:
+    needs: draw
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Draw SVGs
-      uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
-      with:
-        keymap_patterns: "config/*.keymap"
-        config_path: "keymap_drawer.config.yaml"
-        output_folder: "keymap-drawer"
-        parse_args: ""
-        draw_args: ""
-
     - name: Convert SVGs to PNGs
       run: |
+        sudo apt-get install imagemagick
         for svg in keymap-drawer/*.svg; do
           convert "$svg" "${svg%.svg}.png"
         done
