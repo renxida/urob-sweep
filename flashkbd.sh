@@ -33,11 +33,26 @@ RIGHT_FIRMWARE_URL="${GIT_REMOTE_URL}/releases/download/latest/${SHIELD}_right-$
 wget -P $TEMP_DIR "$LEFT_FIRMWARE_URL"
 wget -P $TEMP_DIR "$RIGHT_FIRMWARE_URL"
 
-# Step 2: Ensure NICENANO exists before proceeding with the copy
+
+# Simple spinning animation
+spinner_chars="/-\|"
+counter=0
+
+# Print the initial message
+echo -n "Please plug in and reset the left half of the keyboard. "
+
 while [ ! -d "/media/$USER/NICENANO" ]; do
-    echo "Please plug in and reset the left half of the keyboard."
-    sleep 1
+    # Handle the spinner animation
+    char="${spinner_chars:counter%4:1}"
+    echo -ne "\rPlease plug in and reset the left half of the keyboard. $char"
+    sleep 0.2
+
+    # Increase counter for spinner animation
+    ((counter++))
 done
+
+echo -e "\rPlease plug in and reset the left half of the keyboard. NICENANO detected!"
+
 
 # Copy the left firmware file
 cp $TEMP_DIR/*left-${BOARD}*.uf2 "/media/$USER/NICENANO/"
@@ -47,13 +62,24 @@ while [ -d "/media/$USER/NICENANO" ]; do
     sleep 1
 done
 
-# Prompt the user to plug in and reset the right half of the keyboard
+# Simple spinning animation
+spinner_chars="/-\|"
+counter=0
 
-# Step 4: Wait for /media/$USER/NICENANO to reappear
+# Print the initial message
+echo -n "Please plug in and reset the right half of the keyboard. "
+
 while [ ! -d "/media/$USER/NICENANO" ]; do
-    echo "Please plug in and reset the right half of the keyboard."
-    sleep 1
+    # Handle the spinner animation
+    char="${spinner_chars:counter%4:1}"
+    echo -ne "\rPlease plug in and reset the right half of the keyboard. $char"
+    sleep 0.2
+
+    # Increase counter for spinner animation
+    ((counter++))
 done
+
+echo -e "\rPlease plug in and reset the right half of the keyboard. NICENANO detected!"
 
 # Step 5: Copy the right firmware file
 cp $TEMP_DIR/*right-${BOARD}*.uf2 "/media/$USER/NICENANO/"
