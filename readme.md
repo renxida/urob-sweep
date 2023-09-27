@@ -1,8 +1,8 @@
-# urob's zmk-config
+# rxd's mod on urob's zmk-config
 
-This is my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/) configuration.
-It consists of a 34-keys base layout that is re-used for various boards, including my
-Corneish Zen and an Advantage 360 pro.
+This is a modification to add support for cradio / ferris sweep support to urob's personal [ZMK firmware](https://github.com/zmkfirmware/zmk/) configuration.
+His config consists of a 34-keys base layout that is re-used for various boards, including his
+Corneish Zen and an Advantage 360 pro. But his base config depends on having 3 keys in the thumb cluster, which this fixes.
 
 This branch is updated for the latest ZMK using Zephyr 3.2. A legacy version
 compatible with Zephyr 3.0 is available
