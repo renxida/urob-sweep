@@ -41,6 +41,6 @@ jobs:
           prerelease: false
           title: "Release ${{ env.NEW_TAG }}"
           files: |
-            ${{ github.workspace }}/
+            ${{ github.workspace }}/*.uf2
       
   
