@@ -40,7 +40,7 @@ while [ ! -d "/media/$USER/NICENANO" ]; do
 done
 
 # Copy the left firmware file
-cp $TEMP_DIR/*left-${SHIELD}*.uf2 "/media/$USER/NICENANO/"
+cp $TEMP_DIR/*left-${BOARD}*.uf2 "/media/$USER/NICENANO/"
 
 # Step 3: Wait for /media/$USER/NICENANO to disappear
 while [ -d "/media/$USER/NICENANO" ]; do
@@ -56,7 +56,7 @@ while [ ! -d "/media/$USER/NICENANO" ]; do
 done
 
 # Step 5: Copy the right firmware file
-cp $TEMP_DIR/*right-${SHIELD}*.uf2 "/media/$USER/NICENANO/"
+cp $TEMP_DIR/*right-${BOARD}*.uf2 "/media/$USER/NICENANO/"
 
 # Step 6: Cleanup
 rm -rf $TEMP_DIR
