@@ -13,6 +13,7 @@
 #
 ---
 include:
+<<<<<<< HEAD
   # - board: planck_rev6
   # - board: corneish_zen_v2_left
   # - board: corneish_zen_v2_right
@@ -22,3 +23,8 @@ include:
     shield: cradio_left
   - board: nice_nano_v2
     shield: cradio_right
+=======
+  - board: planck_rev6
+  - board: corneish_zen_v2_left
+  - board: corneish_zen_v2_right
+>>>>>>> 292fe8d45b92ff8fc861dae41be062935a92bcf4
