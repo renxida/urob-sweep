@@ -40,8 +40,8 @@ layers:
   - ''
   - LGUI
   - '&smart_mouse'
-  - {t: RET, h: nav}
-  - {t: SPACE, h: fn, s: '&dot_spc'}
+  - '&lt 1 RET 0'
+  - '&lt_spc 2'
   - ''
   - ''
   - {t: '&num_dance', h: num}
@@ -89,7 +89,7 @@ layers:
   - LGUI
   - '&smart_mouse'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -138,7 +138,7 @@ layers:
   - LGUI
   - '&smart_mouse'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - MUTE
@@ -236,7 +236,7 @@ layers:
   - LGUI
   - '&smart_mouse'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {type: held}
