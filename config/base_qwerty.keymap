@@ -244,16 +244,15 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
 
 ZMK_LAYER(base,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     &kp QUOTE     &comma_morph  &dot_morph    &kp P         &kp Y           X_MT     &kp F         &kp G         &kp C         &kp R         &kp L         X_RT
+    X_LT     &kp Q         &kp W         &kp E         &kp R         &kp T           X_MT     &kp Y         &kp U         &kp I         &kp O         &kp P         X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &hml LGUI A   &hml LALT O   &hml LCTRL E  &hml LSHFT U  &kp I           X_MM     &kp D         &hmr RSHFT H  &hmr LCTRL T  &hmr LALT N   &hmr LGUI S   X_RM
+    X_LM     &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G           X_MM     &kp H         &hmr RSHFT J  &hmr LCTRL K  &hmr LALT L   &hmr LGUI SQT     X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &qexcl        &kp Q         &kp J         &kp K         &kp X           X_MB     &kp B         &kp M         &kp W         &kp V         &kp Z         X_RB
+    X_LB     &kp Z         &kp X         &kp C         &kp V         &kp B           X_MB     &kp N         &kp M         &comma_morph  &dot_morph    &qexcl          X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
     X_LH                                               &lt_spc NAV 0 &lt FN RET      X_MH     SMART_NUM     &smart_shft                                               X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
 )
-
 
 ZMK_LAYER(nav,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
