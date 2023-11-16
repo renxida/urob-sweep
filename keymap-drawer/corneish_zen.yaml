@@ -32,8 +32,8 @@ layers:
   - V
   - Z
   - '&smart_mouse'
-  - {t: RET, h: nav}
-  - {t: SPACE, h: fn, s: '&dot_spc'}
+  - '&lt 1 RET 0'
+  - '&lt_spc 2'
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
   - {t: BSPC, s: DEL}
@@ -69,7 +69,7 @@ layers:
   - {t: ▽, type: trans}
   - '&smart_mouse'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CANCEL
   - {t: BSPC, s: DEL}
@@ -106,7 +106,7 @@ layers:
   - {t: ▽, type: trans}
   - '&smart_mouse'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - MUTE
   - PP
   - {t: BSPC, s: DEL}
@@ -180,7 +180,7 @@ layers:
   - {t: ▽, type: trans}
   - '&smart_mouse'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: BSPC, s: DEL}
