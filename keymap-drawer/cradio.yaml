@@ -35,6 +35,10 @@ layers:
   - {t: RET, h: fn}
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - {t: RET, h: nav}
+  - {t: SPACE, h: fn, s: '&dot_spc'}
+  - {t: '&num_dance', h: num}
+  - {t: LSHFT, h: sticky, s: '&caps_word'}
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -42,8 +46,7 @@ layers:
   - '&swapper'
   - {t: ▽, type: trans}
   - PG UP
-  - {t: BSPC, h: LC(BSPC)}
-  - {t: UP, h: LC(HOME)}
+  - '&mt LC(BSPC) BSPC `1`_UP'
   - {t: DEL, h: LC(DEL)}
   - {t: ▽, type: trans}
   - {t: LGUI, h: sticky}
@@ -66,8 +69,8 @@ layers:
   - <
   - '>'
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - CANCEL
   fn:

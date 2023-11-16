@@ -49,6 +49,18 @@ layers:
   - {t: BSPC, s: DEL}
   - '&mwh SCROLL_VERT(-100)'
   - '&mwh SCROLL_VERT(100)'
+  - ''
+  - LGUI
+  - '&smart_mouse'
+  - {t: RET, h: nav}
+  - {t: SPACE, h: fn, s: '&dot_spc'}
+  - ''
+  - ''
+  - {t: '&num_dance', h: num}
+  - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - {t: BSPC, s: DEL}
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mwh SCROLL_VERT(100)'
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -58,8 +70,7 @@ layers:
   - ''
   - ''
   - PG UP
-  - {t: BSPC, h: LC(BSPC)}
-  - {t: UP, h: LC(HOME)}
+  - '&mt LC(BSPC) BSPC `1`_UP'
   - {t: DEL, h: LC(DEL)}
   - {t: ▽, type: trans}
   - {t: LGUI, h: sticky}
@@ -89,8 +100,8 @@ layers:
   - ''
   - LGUI
   - '&smart_mouse'
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   - {t: ▽, type: trans}
