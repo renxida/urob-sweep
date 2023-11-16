@@ -5,8 +5,12 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
+
 BOARD="$1"
 SHIELD="$2"
+
+BOARD="nice_nano_v2"
+SHIELD="cradio"
 
 # Create a unique timestamped folder in /tmp
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
