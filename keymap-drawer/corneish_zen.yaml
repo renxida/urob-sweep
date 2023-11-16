@@ -37,6 +37,12 @@ layers:
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
   - {t: BSPC, s: DEL}
+  - '&smart_mouse'
+  - {t: RET, h: nav}
+  - {t: SPACE, h: fn, s: '&dot_spc'}
+  - {t: '&num_dance', h: num}
+  - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - {t: BSPC, s: DEL}
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -44,8 +50,7 @@ layers:
   - '&swapper'
   - {t: ▽, type: trans}
   - PG UP
-  - {t: BSPC, h: LC(BSPC)}
-  - {t: UP, h: LC(HOME)}
+  - '&mt LC(BSPC) BSPC `1`_UP'
   - {t: DEL, h: LC(DEL)}
   - {t: ▽, type: trans}
   - {t: LGUI, h: sticky}
@@ -69,8 +74,8 @@ layers:
   - '>'
   - {t: ▽, type: trans}
   - '&smart_mouse'
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - CANCEL
   - {t: BSPC, s: DEL}
