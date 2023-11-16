@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
 layers:
   base:
-  - QUOTE
+  - ''''
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - P

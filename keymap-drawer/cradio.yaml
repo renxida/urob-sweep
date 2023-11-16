@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: ferris/sweep}
 layers:
   base:
-  - QUOTE
+  - ''''
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - P
