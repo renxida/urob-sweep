@@ -15,44 +15,44 @@ layers:
   - F10
   - '-'
   - TAB
-  - ''''
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - P
-  - Y
-  - ''
-  - ''
-  - F
-  - G
-  - C
+  - Q
+  - W
+  - E
   - R
-  - L
+  - T
+  - ''
+  - ''
+  - Y
+  - U
+  - I
+  - O
+  - P
   - \
   - ESC
   - {t: A, h: LGUI}
-  - {t: O, h: LALT}
-  - {t: E, h: LCTRL}
-  - {t: U, h: LSHFT}
-  - I
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
   - ''
   - ''
-  - D
-  - {t: H, h: RSHFT}
-  - {t: T, h: LCTRL}
-  - {t: N, h: LALT}
-  - {t: S, h: LGUI}
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: '''', h: LGUI}
   - ''''
   - LSHFT
-  - {t: '?', s: '!'}
-  - Q
-  - J
-  - K
-  - X
-  - B
-  - M
-  - W
-  - V
   - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '?', s: '!'}
   - RSHFT
   - ''
   - '`'
