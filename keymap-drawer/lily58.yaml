@@ -1,18 +1,6 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
   base:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ''
   - ''
   - Q
   - W
@@ -43,23 +31,12 @@ layers:
   - C
   - V
   - B
-  - ''
-  - ''
   - N
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - ''
-  - TAB
-  - {t: SPACE, h: nav, s: '&dot_spc'}
-  - {t: RET, h: fn}
-  - ''
-  - ''
-  - {t: '&num_dance', h: num}
-  - {t: LSHFT, h: sticky, s: '&caps_word'}
-  - ''
-  nav:
   - ESC
   - '1'
   - '2'
@@ -72,6 +49,15 @@ layers:
   - '9'
   - '0'
   - ''
+  - TAB
+  - ''
+  - {t: SPACE, h: nav, s: '&dot_spc'}
+  - {t: RET, h: fn}
+  - {t: '&num_dance', h: num}
+  - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - ''
+  - ''
+  nav:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -102,23 +88,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - INS
   - TAB
   - <
   - '>'
   - {t: ▽, type: trans}
   - ''
-  - TAB
-  - {type: held}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - CANCEL
-  - ''
-  fn:
   - ESC
   - '1'
   - '2'
@@ -131,6 +106,15 @@ layers:
   - '9'
   - '0'
   - ''
+  - TAB
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CANCEL
+  - ''
+  - ''
+  fn:
   - ''
   - F12
   - F7
@@ -161,23 +145,12 @@ layers:
   - F2
   - F3
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - LG(LC(LS(A)))
   - LG(LC(LS(Q)))
   - LA(GRAVE)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - TAB
-  - {t: ▽, type: trans}
-  - {type: held}
-  - ''
-  - ''
-  - MUTE
-  - PP
-  - ''
-  num:
   - ESC
   - '1'
   - '2'
@@ -190,6 +163,15 @@ layers:
   - '9'
   - '0'
   - ''
+  - TAB
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - MUTE
+  - PP
+  - ''
+  - ''
+  num:
   - ''
   - {t: ▽, type: trans}
   - '7'
@@ -220,23 +202,12 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {type: held}
-  - {t: ▽, type: trans}
-  - ''
-  sys:
   - ESC
   - '1'
   - '2'
@@ -249,6 +220,15 @@ layers:
   - '9'
   - '0'
   - ''
+  - TAB
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  sys:
   - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -279,23 +259,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&sys_reset'
-  - ''
-  - ''
   - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - TAB
-  - {t: ▽, type: trans}
-  - {type: held}
-  - ''
-  - ''
-  - {type: held}
-  - {t: ▽, type: trans}
-  - ''
-  uc:
   - ESC
   - '1'
   - '2'
@@ -303,11 +272,20 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '7', type: held}
+  - '7'
   - '8'
-  - {t: '9', type: held}
+  - '9'
   - '0'
   - ''
+  - TAB
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  uc:
   - ''
   - {t: ▽, type: trans}
   - {t: '&el_omega_lower', s: '&el_omega_upper'}
@@ -315,9 +293,9 @@ layers:
   - {t: '&el_pi_lower', s: '&el_pi_upper'}
   - {t: '&el_beta_lower', s: '&el_beta_upper'}
   - {t: ▽, type: trans}
-  - {t: '&el_lambda_lower', s: '&el_lambda_upper'}
+  - {t: '&el_lambda_lower', s: '&el_lambda_upper', type: held}
   - {t: '&el_upsilon_lower', s: '&el_upsilon_upper'}
-  - {t: '&el_psi_lower', s: '&el_psi_upper'}
+  - {t: '&el_psi_lower', s: '&el_psi_upper', type: held}
   - '&de_eszett_lower'
   - ''
   - ''
@@ -338,23 +316,12 @@ layers:
   - {t: '&el_chi_lower', s: '&el_chi_upper'}
   - {t: '&el_delta_lower', s: '&el_delta_upper'}
   - {t: '&el_theta_lower', s: '&el_theta_upper'}
-  - ''
-  - ''
   - {t: '&el_kappa_lower', s: '&el_kappa_upper'}
   - {t: '&el_eta_lower', s: '&el_eta_upper'}
   - {t: '&de_ae_lower', s: '&de_ae_upper'}
   - {t: '&de_oe_lower', s: '&de_oe_upper'}
   - {t: '&de_ue_lower', s: '&de_ue_upper'}
   - ''
-  - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  mouse:
   - ESC
   - '1'
   - '2'
@@ -367,6 +334,15 @@ layers:
   - '9'
   - '0'
   - ''
+  - TAB
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  mouse:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -397,21 +373,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ''
   - TAB
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - '&mkp MB2'
   - '&mkp MB1'
+  - ''
   - ''
 combos:
 - p: [2, 3]
