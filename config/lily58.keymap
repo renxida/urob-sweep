@@ -2,8 +2,30 @@
 #include "../zmk-nodefree-config/keypos_def/keypos_58keys.h"
 
 /* map lily58 extra keys */
-#define X_LH  &smart_mouse  // thumb row, left
-#define X_RH  &bs_del       // thumb row, right
+
+
+#define X_LILY58TOPROW  &kp ESC     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          X_MT     &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        X_RT
+
+
+// left column
+#define X_LT &none
+#define X_LM &none
+#define X_LB &none
+
+
+// right column
+#define X_RT &none
+#define X_RM &none
+#define X_RB &none
+
+// - thumb
+//   - outer
+#define X_LH &kp TAB // thumb
+#define X_RH &none 
+//   - inner pairs
+#define X_MH &none &none // lower ones
+#define X_MB &none &none // upper ones
+
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
