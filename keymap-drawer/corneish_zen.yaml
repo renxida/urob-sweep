@@ -2,32 +2,32 @@ layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
 layers:
   base:
   - Q
-  - G
-  - M
-  - L
   - W
-  - Y
-  - F
-  - U
-  - B
-  - ''''
-  - {t: D, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: T, h: LCTRL}
-  - {t: N, h: LSHFT}
+  - E
   - R
+  - T
+  - Y
+  - U
   - I
-  - {t: A, h: RSHFT}
-  - {t: E, h: LCTRL}
-  - {t: O, h: LALT}
-  - {t: H, h: LGUI}
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: '''', h: LGUI}
   - Z
   - X
   - C
   - V
-  - J
-  - K
-  - P
+  - B
+  - N
+  - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}

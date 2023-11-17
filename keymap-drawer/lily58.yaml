@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
+layout: {qmk_keyboard: lily58_rotated}
 layers:
   base:
   - Q
@@ -6,8 +6,6 @@ layers:
   - E
   - R
   - T
-  - ''
-  - ''
   - Y
   - U
   - I
@@ -18,8 +16,6 @@ layers:
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
   - G
-  - ''
-  - ''
   - H
   - {t: J, h: RSHFT}
   - {t: K, h: LCTRL}
@@ -30,33 +26,23 @@ layers:
   - C
   - V
   - B
-  - ''
-  - ''
   - N
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - ''
-  - LGUI
   - '&smart_mouse'
   - {t: SPACE, h: nav, s: '&dot_spc'}
   - {t: RET, h: fn}
-  - ''
-  - ''
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
   - {t: BSPC, s: DEL}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mwh SCROLL_VERT(100)'
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LS(TAB)
   - '&swapper'
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - PG UP
   - {t: BSPC, h: LC(BSPC)}
   - {t: UP, h: LC(HOME)}
@@ -67,8 +53,6 @@ layers:
   - {t: LCTRL, h: sticky}
   - {t: LSHFT, h: sticky}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - PG DN
   - {t: LEFT, h: HOME}
   - {t: DOWN, h: LC(END)}
@@ -79,33 +63,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - INS
   - TAB
   - <
   - '>'
   - {t: ▽, type: trans}
-  - ''
-  - LGUI
   - '&smart_mouse'
   - {type: held}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - CANCEL
   - {t: BSPC, s: DEL}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mwh SCROLL_VERT(100)'
   fn:
   - F12
   - F7
   - F8
   - F9
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - PREV
   - VOL UP
@@ -116,8 +90,6 @@ layers:
   - {t: F5, h: LCTRL}
   - {t: F6, h: LSHFT}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: LG(LC(LEFT)), h: RSHFT}
   - {t: VOL DN, h: LCTRL}
@@ -128,33 +100,23 @@ layers:
   - F2
   - F3
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - LG(LC(LS(A)))
   - LG(LC(LS(Q)))
   - LA(GRAVE)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - LGUI
   - '&smart_mouse'
   - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
   - MUTE
   - PP
   - {t: BSPC, s: DEL}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mwh SCROLL_VERT(100)'
   num:
   - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,8 +127,6 @@ layers:
   - {t: '5', h: LCTRL}
   - {t: '6', h: LSHFT}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,33 +137,23 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - LGUI
   - '&smart_mouse'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: BSPC, s: DEL}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mwh SCROLL_VERT(100)'
   sys:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -214,8 +164,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bootloader'
-  - ''
-  - ''
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -226,45 +174,33 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&sys_reset'
-  - ''
-  - ''
   - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - LGUI
   - '&smart_mouse'
   - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: BSPC, s: DEL}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mwh SCROLL_VERT(100)'
   uc:
   - {t: ▽, type: trans}
   - {t: '&el_omega_lower', s: '&el_omega_upper'}
   - {t: '&el_phi_lower', s: '&el_phi_upper'}
   - {t: '&el_pi_lower', s: '&el_pi_upper'}
   - {t: '&el_beta_lower', s: '&el_beta_upper'}
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  - {t: '&el_lambda_lower', s: '&el_lambda_upper', type: held}
-  - {t: '&el_upsilon_lower', s: '&el_upsilon_upper'}
-  - {t: '&el_psi_lower', s: '&el_psi_upper', type: held}
-  - '&de_eszett_lower'
+  - {t: '&el_lambda_lower', s: '&el_lambda_upper'}
+  - {t: '&el_upsilon_lower', s: '&el_upsilon_upper', type: held}
+  - {t: '&el_psi_lower', s: '&el_psi_upper'}
+  - {t: '&de_eszett_lower', type: held}
   - {t: '&el_alpha_lower', s: '&el_alpha_upper'}
   - {t: '&el_rho_lower', s: '&el_rho_upper'}
   - {t: '&el_sigma_lower', s: '&el_sigma_upper'}
   - {t: '&el_tau_lower', s: '&el_tau_upper'}
   - {t: '&el_gamma_lower', s: '&el_gamma_upper'}
-  - ''
-  - ''
   - {t: '&el_mu_lower', s: '&el_mu_upper'}
   - {t: '&el_nu_lower', s: '&el_nu_upper'}
   - {t: '&el_epsilon_lower', s: '&el_epsilon_upper'}
@@ -275,33 +211,23 @@ layers:
   - {t: '&el_chi_lower', s: '&el_chi_upper'}
   - {t: '&el_delta_lower', s: '&el_delta_upper'}
   - {t: '&el_theta_lower', s: '&el_theta_upper'}
-  - ''
-  - ''
   - {t: '&el_kappa_lower', s: '&el_kappa_upper'}
   - {t: '&el_eta_lower', s: '&el_eta_upper'}
   - {t: '&de_ae_lower', s: '&de_ae_upper'}
   - {t: '&de_oe_lower', s: '&de_oe_upper'}
   - {t: '&de_ue_lower', s: '&de_ue_upper'}
-  - ''
-  - LGUI
   - '&smart_mouse'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BSPC, s: DEL}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mwh SCROLL_VERT(100)'
   mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - '&mwh SCROLL_VERT(-100)'
   - '&mmv MOVE_VERT(-1250)'
@@ -312,8 +238,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - '&mmv MOVE_HOR(-1250)'
   - '&mmv MOVE_VERT(1250)'
@@ -324,131 +248,123 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - LGUI
   - '&smart_mouse'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - '&mkp MB2'
   - '&mkp MB1'
   - {t: BSPC, s: DEL}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mwh SCROLL_VERT(100)'
 combos:
-- p: [1, 2]
+- p: [2, 3]
   k: ESC
   l: [base, nav, num]
-- p: [2, 3]
+- p: [3, 4]
   k: RETURN
   l: [base, nav, num]
-- p: [1, 3]
+- p: [2, 4]
   k: '&smart_mouse'
   l: [base, nav, num]
-- p: [13, 14]
+- p: [14, 15]
   k: {t: TAB, h: LA(LCTRL)}
   l: [base, nav, num]
-- p: [14, 15]
+- p: [15, 16]
   k: {t: '&key_repeat', h: LS(LCTRL)}
   l: [base, nav, num]
-- p: [25, 27]
+- p: [26, 28]
   k: LC(X)
   l: [base, nav, num]
-- p: [25, 26]
+- p: [26, 27]
   k: LC(INS)
   l: [base, nav, num]
-- p: [26, 27]
+- p: [27, 28]
   k: LS(INS)
   l: [base, nav, num]
-- p: [8, 9]
+- p: [7, 8]
   k: BSPC
   l: [base, nav, num]
-- p: [9, 10]
+- p: [8, 9]
   k: DEL
   l: [base, nav, num]
-- p: [20, 21]
+- p: [19, 20]
   k: {t: (, h: RS(LCTRL), s: <}
   l: [base, num]
-- p: [21, 22]
+- p: [20, 21]
   k: {t: ), h: LA(LCTRL), s: '>'}
   l: [base, num]
-- p: [20, 21]
+- p: [19, 20]
   k: <
   l: [nav]
-- p: [21, 22]
+- p: [20, 21]
   k: '>'
   l: [nav]
-- p: [32, 33]
+- p: [31, 32]
   k: '['
   l: [base, num]
-- p: [33, 34]
+- p: [32, 33]
   k: ']'
   l: [base, num]
-- p: [32, 33]
+- p: [31, 32]
   k: '{'
   l: [nav]
-- p: [33, 34]
+- p: [32, 33]
   k: '}'
   l: [nav]
-- p: [8, 10]
+- p: [7, 9]
   k: {t: uc, h: sticky}
   l: [base, nav, num]
-- p: [8, 9, 10]
+- p: [7, 8, 9]
   k: {t: '&uc_shift', h: sticky}
   l: [base, nav, num]
-- p: [1, 13]
+- p: [2, 14]
   k: '@'
   l: [base, nav, num]
-- p: [2, 14]
+- p: [3, 15]
   k: '#'
   l: [base, nav, num]
-- p: [3, 15]
+- p: [4, 16]
   k: $
   l: [base, nav, num]
-- p: [4, 16]
+- p: [5, 17]
   k: '%'
   l: [base, nav, num]
-- p: [13, 25]
+- p: [14, 26]
   k: '`'
   l: [base, nav, num]
-- p: [14, 26]
+- p: [15, 27]
   k: \
   l: [base, nav, num]
-- p: [15, 27]
+- p: [16, 28]
   k: '='
   l: [base, nav, num]
-- p: [16, 28]
+- p: [17, 29]
   k: '~'
   l: [base, nav, num]
-- p: [7, 19]
+- p: [6, 18]
   k: ^
   l: [base, nav, num]
-- p: [8, 20]
+- p: [7, 19]
   k: +
   l: [base, nav, num]
-- p: [9, 21]
+- p: [8, 20]
   k: '*'
   l: [base, nav, num]
-- p: [10, 22]
+- p: [9, 21]
   k: '&'
   l: [base, nav, num]
-- p: [19, 31]
+- p: [18, 30]
   k: _
   l: [base, nav, num]
-- p: [20, 32]
+- p: [19, 31]
   k: '-'
   l: [base, nav, num]
-- p: [21, 33]
+- p: [20, 32]
   k: /
   l: [base, nav, num]
-- p: [22, 34]
+- p: [21, 33]
   k: '|'
   l: [base, nav, num]
