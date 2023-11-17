@@ -1,6 +1,19 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
   base:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
   - Q
   - W
   - E
@@ -11,6 +24,8 @@ layers:
   - I
   - O
   - P
+  - ''
+  - ''
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
@@ -21,23 +36,43 @@ layers:
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
   - {t: '''', h: LGUI}
+  - ''
+  - ''
   - Z
   - X
   - C
   - V
   - B
+  - ''
+  - ''
   - N
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - '&smart_mouse'
+  - ''
+  - TAB
   - {t: SPACE, h: nav, s: '&dot_spc'}
   - {t: RET, h: fn}
+  - ''
+  - ''
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
-  - {t: BSPC, s: DEL}
+  - ''
   nav:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LS(TAB)
@@ -48,6 +83,8 @@ layers:
   - {t: UP, h: LC(HOME)}
   - {t: DEL, h: LC(DEL)}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
@@ -58,23 +95,43 @@ layers:
   - {t: DOWN, h: LC(END)}
   - {t: RIGHT, h: END}
   - RET
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - INS
   - TAB
   - <
   - '>'
   - {t: ▽, type: trans}
-  - '&smart_mouse'
+  - ''
+  - TAB
   - {type: held}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - CANCEL
-  - {t: BSPC, s: DEL}
+  - ''
   fn:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
   - F12
   - F7
   - F8
@@ -85,6 +142,8 @@ layers:
   - VOL UP
   - NEXT
   - '&win_sleep'
+  - ''
+  - ''
   - {t: F11, h: LGUI}
   - {t: F4, h: LALT}
   - {t: F5, h: LCTRL}
@@ -95,23 +154,43 @@ layers:
   - {t: VOL DN, h: LCTRL}
   - {t: LG(LC(RIGHT)), h: LALT}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - F10
   - F1
   - F2
   - F3
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - LG(LC(LS(A)))
   - LG(LC(LS(Q)))
   - LA(GRAVE)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&smart_mouse'
+  - ''
+  - TAB
   - {t: ▽, type: trans}
   - {type: held}
+  - ''
+  - ''
   - MUTE
   - PP
-  - {t: BSPC, s: DEL}
+  - ''
   num:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -122,6 +201,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: '0', h: LGUI}
   - {t: '4', h: LALT}
   - {t: '5', h: LCTRL}
@@ -132,23 +213,43 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&smart_mouse'
+  - ''
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: BSPC, s: DEL}
+  - ''
   sys:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -159,6 +260,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,23 +272,43 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&sys_reset'
+  - ''
+  - ''
   - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&smart_mouse'
+  - ''
+  - TAB
   - {t: ▽, type: trans}
   - {type: held}
+  - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: BSPC, s: DEL}
+  - ''
   uc:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - {t: '7', type: held}
+  - '8'
+  - {t: '9', type: held}
+  - '0'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: '&el_omega_lower', s: '&el_omega_upper'}
   - {t: '&el_phi_lower', s: '&el_phi_upper'}
@@ -193,9 +316,11 @@ layers:
   - {t: '&el_beta_lower', s: '&el_beta_upper'}
   - {t: ▽, type: trans}
   - {t: '&el_lambda_lower', s: '&el_lambda_upper'}
-  - {t: '&el_upsilon_lower', s: '&el_upsilon_upper', type: held}
+  - {t: '&el_upsilon_lower', s: '&el_upsilon_upper'}
   - {t: '&el_psi_lower', s: '&el_psi_upper'}
-  - {t: '&de_eszett_lower', type: held}
+  - '&de_eszett_lower'
+  - ''
+  - ''
   - {t: '&el_alpha_lower', s: '&el_alpha_upper'}
   - {t: '&el_rho_lower', s: '&el_rho_upper'}
   - {t: '&el_sigma_lower', s: '&el_sigma_upper'}
@@ -206,23 +331,43 @@ layers:
   - {t: '&el_epsilon_lower', s: '&el_epsilon_upper'}
   - {t: '&el_iota_lower', s: '&el_iota_upper'}
   - {t: '&el_omikron_lower', s: '&el_omikron_upper'}
+  - ''
+  - ''
   - {t: '&el_zeta_lower', s: '&el_zeta_upper'}
   - {t: '&el_xi_lower', s: '&el_xi_upper'}
   - {t: '&el_chi_lower', s: '&el_chi_upper'}
   - {t: '&el_delta_lower', s: '&el_delta_upper'}
   - {t: '&el_theta_lower', s: '&el_theta_upper'}
+  - ''
+  - ''
   - {t: '&el_kappa_lower', s: '&el_kappa_upper'}
   - {t: '&el_eta_lower', s: '&el_eta_upper'}
   - {t: '&de_ae_lower', s: '&de_ae_upper'}
   - {t: '&de_oe_lower', s: '&de_oe_upper'}
   - {t: '&de_ue_lower', s: '&de_ue_upper'}
-  - '&smart_mouse'
+  - ''
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BSPC, s: DEL}
+  - ''
   mouse:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -233,6 +378,8 @@ layers:
   - '&mmv MOVE_VERT(-1250)'
   - '&mwh SCROLL_VERT(100)'
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -243,22 +390,29 @@ layers:
   - '&mmv MOVE_VERT(1250)'
   - '&mmv MOVE_HOR(1250)'
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&smart_mouse'
+  - ''
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - '&mkp MB2'
   - '&mkp MB1'
-  - {t: BSPC, s: DEL}
+  - ''
 combos:
 - p: [2, 3]
   k: ESC
