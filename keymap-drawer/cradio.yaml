@@ -1,36 +1,36 @@
 layout: {qmk_keyboard: ferris/sweep}
 layers:
   base:
-  - Q
-  - G
-  - M
-  - L
-  - W
-  - Y
-  - F
-  - U
-  - B
   - ''''
-  - {t: D, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: T, h: LCTRL}
-  - {t: N, h: LSHFT}
-  - R
-  - I
-  - {t: A, h: RSHFT}
-  - {t: E, h: LCTRL}
-  - {t: O, h: LALT}
-  - {t: H, h: LGUI}
-  - Z
-  - X
-  - C
-  - V
-  - J
-  - K
-  - P
   - {t: ',', s: ;}
   - {t: ., s: ':'}
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: A, h: LGUI}
+  - {t: O, h: LALT}
+  - {t: E, h: LCTRL}
+  - {t: U, h: LSHFT}
+  - I
+  - D
+  - {t: H, h: RSHFT}
+  - {t: T, h: LCTRL}
+  - {t: N, h: LALT}
+  - {t: S, h: LGUI}
   - {t: '?', s: '!'}
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - Z
   - {t: SPACE, h: nav, s: '&dot_spc'}
   - {t: RET, h: fn}
   - {t: '&num_dance', h: num}
