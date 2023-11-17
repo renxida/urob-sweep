@@ -44,6 +44,6 @@
 #endif
 
 
-#if !defined X_LILY58TOPROW  // thumb row, right
-    #define X_LILY58TOPROW
+#if !defined X_LILY58BOTROW  // thumb row, right
+    #define X_LILY58BOTROW
 #endif
