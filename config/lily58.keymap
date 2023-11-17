@@ -4,7 +4,7 @@
 /* map lily58 extra keys */
 
 
-#define X_LILY58BOTROW  &kp ESC     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          X_MT     &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        X_RT
+
 
 
 // left column
@@ -26,6 +26,7 @@
 #define X_MB // upper ones
 #define X_MH // lower ones
 
+#define X_LILY58BOTROW  &kp ESC     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &none &none     &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        X_RT
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
