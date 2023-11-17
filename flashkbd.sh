@@ -1,16 +1,14 @@
 #!/bin/bash
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <board> <shield>"
-    exit 1
+    BOARD="nice_nano_v2"
+    SHIELD="cradio"
+    echo defaulting to board $BOARD and shield $SHIELD
+else
+  BOARD="$1"
+  SHIELD="$2"
 fi
 
-
-BOARD="$1"
-SHIELD="$2"
-
-BOARD="nice_nano_v2"
-SHIELD="cradio"
 
 # Create a unique timestamped folder in /tmp
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
