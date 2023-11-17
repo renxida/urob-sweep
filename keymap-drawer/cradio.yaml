@@ -1,38 +1,38 @@
 layout: {qmk_keyboard: ferris/sweep}
 layers:
   base:
-  - ''''
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - P
+  - Q
+  - G
+  - M
+  - L
+  - W
   - Y
   - F
-  - G
-  - C
-  - R
-  - L
-  - {t: A, h: LGUI}
-  - {t: O, h: LALT}
-  - {t: E, h: LCTRL}
-  - {t: U, h: LSHFT}
-  - I
-  - D
-  - {t: H, h: RSHFT}
+  - U
+  - B
+  - ''''
+  - {t: D, h: LGUI}
+  - {t: S, h: LALT}
   - {t: T, h: LCTRL}
-  - {t: N, h: LALT}
-  - {t: S, h: LGUI}
-  - {t: '?', s: '!'}
-  - Q
+  - {t: N, h: LSHFT}
+  - R
+  - I
+  - {t: A, h: RSHFT}
+  - {t: E, h: LCTRL}
+  - {t: O, h: LALT}
+  - {t: H, h: LGUI}
+  - Z
+  - X
+  - C
+  - V
   - J
   - K
-  - X
-  - B
-  - M
-  - W
-  - V
-  - Z
-  - '&lt 1 RET 0'
-  - '&lt_spc 2'
+  - P
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '?', s: '!'}
+  - {t: SPACE, h: nav, s: '&dot_spc'}
+  - {t: RET, h: fn}
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
   nav:
@@ -42,7 +42,8 @@ layers:
   - '&swapper'
   - {t: ▽, type: trans}
   - PG UP
-  - '&mt LC(BSPC) BSPC `1`_UP'
+  - {t: BSPC, h: LC(BSPC)}
+  - {t: UP, h: LC(HOME)}
   - {t: DEL, h: LC(DEL)}
   - {t: ▽, type: trans}
   - {t: LGUI, h: sticky}
@@ -65,7 +66,7 @@ layers:
   - <
   - '>'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CANCEL
@@ -101,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - MUTE
   - PP
   num:
@@ -171,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   uc:
