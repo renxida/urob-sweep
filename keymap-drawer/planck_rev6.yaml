@@ -38,14 +38,15 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - ''
-  - LGUI
-  - '&smart_mouse'
   - {t: SPACE, h: nav, s: '&dot_spc'}
   - {t: RET, h: fn}
+  - {t: SPACE, s: '&dot_spc'}
   - ''
   - ''
+  - '&RET'
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - ''
   - {t: BSPC, s: DEL}
   - '&mwh SCROLL_VERT(-100)'
   - '&mwh SCROLL_VERT(100)'
@@ -87,9 +88,9 @@ layers:
   - '>'
   - {t: ▽, type: trans}
   - ''
-  - LGUI
+  - {t: LGUI, type: held}
   - '&smart_mouse'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -137,9 +138,9 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - LGUI
-  - '&smart_mouse'
+  - {t: '&smart_mouse', type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - MUTE
@@ -235,9 +236,9 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - LGUI
-  - '&smart_mouse'
+  - {t: '&smart_mouse', type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {type: held}

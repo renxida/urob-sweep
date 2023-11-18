@@ -31,11 +31,14 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - '&smart_mouse'
+  - ''
   - {t: SPACE, h: nav, s: '&dot_spc'}
   - {t: RET, h: fn}
+  - {t: SPACE, s: '&dot_spc'}
+  - '&RET'
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - ''
   - {t: BSPC, s: DEL}
   nav:
   - {t: ▽, type: trans}
@@ -145,9 +148,9 @@ layers:
   - '&smart_mouse'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
-  - {t: BSPC, s: DEL}
+  - {t: ▽, type: trans}
+  - {t: BSPC, s: DEL, type: held}
   sys:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -182,9 +185,9 @@ layers:
   - '&smart_mouse'
   - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
-  - {t: BSPC, s: DEL}
+  - {t: ▽, type: trans}
+  - {t: BSPC, s: DEL, type: held}
   uc:
   - {t: ▽, type: trans}
   - {t: '&el_omega_lower', s: '&el_omega_upper'}
