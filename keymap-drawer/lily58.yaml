@@ -53,10 +53,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: RET, h: fn}
   - {t: SPACE, h: nav, s: '&dot_spc'}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
-  - ''
+  - {t: '&num_dance', h: num}
   - ''
   - ''
   nav:
