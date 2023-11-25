@@ -1,4 +1,3 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
 layers:
   base:
   - Q
@@ -31,15 +30,10 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - ''
   - {t: SPACE, h: nav, s: '&dot_spc'}
   - {t: RET, h: fn}
-  - {t: SPACE, s: '&dot_spc'}
-  - '&RET'
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
-  - ''
-  - {t: BSPC, s: DEL}
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -71,12 +65,10 @@ layers:
   - <
   - '>'
   - {t: ▽, type: trans}
-  - '&smart_mouse'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CANCEL
-  - {t: BSPC, s: DEL}
   fn:
   - F12
   - F7
@@ -108,12 +100,10 @@ layers:
   - LA(GRAVE)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&smart_mouse'
   - {t: ▽, type: trans}
   - {type: held}
   - MUTE
   - PP
-  - {t: BSPC, s: DEL}
   num:
   - {t: ▽, type: trans}
   - '7'
@@ -145,12 +135,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&smart_mouse'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BSPC, s: DEL, type: held}
   sys:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -182,12 +170,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&smart_mouse'
   - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BSPC, s: DEL, type: held}
   uc:
   - {t: ▽, type: trans}
   - {t: '&el_omega_lower', s: '&el_omega_upper'}
@@ -219,12 +205,10 @@ layers:
   - {t: '&de_ae_lower', s: '&de_ae_upper'}
   - {t: '&de_oe_lower', s: '&de_oe_upper'}
   - {t: '&de_ue_lower', s: '&de_ue_upper'}
-  - '&smart_mouse'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BSPC, s: DEL}
   mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -256,12 +240,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&smart_mouse'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB2'
   - '&mkp MB1'
-  - {t: BSPC, s: DEL}
 combos:
 - p: [1, 2]
   k: ESC

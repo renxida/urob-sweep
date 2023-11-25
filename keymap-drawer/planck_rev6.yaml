@@ -2,50 +2,51 @@ layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
   base:
   - Q
-  - G
-  - M
-  - L
   - W
+  - E
+  - R
+  - T
   - ''
   - ''
   - Y
-  - F
   - U
-  - B
-  - ''''
-  - {t: D, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: T, h: LCTRL}
-  - {t: N, h: LSHFT}
-  - R
-  - ''
-  - ''
   - I
-  - {t: A, h: RSHFT}
-  - {t: E, h: LCTRL}
-  - {t: O, h: LALT}
-  - {t: H, h: LGUI}
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - ''
+  - ''
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: '''', h: LGUI}
   - Z
   - X
   - C
   - V
-  - J
+  - B
   - ''
   - ''
-  - K
-  - P
+  - N
+  - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - ''
-  - LGUI
-  - '&smart_mouse'
   - {t: SPACE, h: nav, s: '&dot_spc'}
   - {t: RET, h: fn}
+  - {t: SPACE, s: '&dot_spc'}
   - ''
   - ''
+  - '&RET'
   - {t: '&num_dance', h: num}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - ''
   - {t: BSPC, s: DEL}
   - '&mwh SCROLL_VERT(-100)'
   - '&mwh SCROLL_VERT(100)'
@@ -87,9 +88,9 @@ layers:
   - '>'
   - {t: ▽, type: trans}
   - ''
-  - LGUI
+  - {t: LGUI, type: held}
   - '&smart_mouse'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -137,9 +138,9 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - LGUI
-  - '&smart_mouse'
+  - {t: '&smart_mouse', type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - MUTE
@@ -235,9 +236,9 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - LGUI
-  - '&smart_mouse'
+  - {t: '&smart_mouse', type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {type: held}
