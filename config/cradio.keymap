@@ -10,7 +10,7 @@
 #define CONFIG_WIRELESS 1
 
 /* source the main keymap */
-#include "base_qwerty.keymap"
+#include "base_qgml.keymap"
 
 /* use default transform*/
 / { chosen { zmk,matrix_transform = &default_transform; }; };
