@@ -12,7 +12,7 @@ fi
 
 # Create a unique timestamped folder in /tmp
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-TEMP_DIR="/tmp/firmware_$TIMESTAMP"
+TEMP_DIR="./downloaded_firmware_$TIMESTAMP"
 mkdir $TEMP_DIR
 
 # Extract remote URL from the current repo and convert SSH format to HTTPS if needed
@@ -74,6 +74,6 @@ while [ -d "/media/$USER/NICENANO" ]; do
 done
 
 # Cleanup
-rm -rf $TEMP_DIR
+#rm -rf $TEMP_DIR
 
 echo "Script executed successfully."
