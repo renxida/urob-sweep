@@ -6,7 +6,6 @@ jobs:
 
   release:
     needs: build
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' )
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -44,3 +43,36 @@ jobs:
             ${{ github.workspace }}/*.uf2
       
   
+
+  draw:
+    needs: release
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    with:
+      keymap_patterns: "config/*.keymap"
+      config_path: "keymap_drawer.config.yaml"
+      output_folder: "keymap-drawer"
+      parse_args: ""
+      draw_args: ""
+
+  convert_and_commit:
+    needs: draw
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Convert SVGs to PNGs
+      run: |
+        sudo apt-get install -y inkscape
+        for svg in keymap-drawer/*.svg; do
+          inkscape "$svg" --export-type=png --export-filename="${svg%.svg}.png"
+        done
+    
+
+    - name: Commit PNGs
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add keymap-drawer/*.png
+        git commit -m "Add generated PNGs" || echo "No changes to commit"
+        git push

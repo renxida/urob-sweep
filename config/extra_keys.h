@@ -43,3 +43,7 @@
     #define X_RH
 #endif
 
+
+#if !defined X_LILY58BOTROW  // thumb row, right
+    #define X_LILY58BOTROW
+#endif

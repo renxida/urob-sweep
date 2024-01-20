@@ -1,0 +1,1 @@
+./flashkbd.sh nice_nano_v2 lily58
