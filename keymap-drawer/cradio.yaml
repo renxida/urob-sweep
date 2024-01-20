@@ -3,31 +3,31 @@ layers:
   base:
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
   - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHFT}
   - G
-  - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: LCTRL}
-  - {t: L, h: LALT}
-  - {t: '''', h: LGUI}
+  - M
+  - {t: N, h: RSHFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
   - Z
   - X
   - C
+  - D
   - V
-  - B
-  - N
-  - M
+  - K
+  - H
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
